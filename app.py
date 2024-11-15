@@ -1,3 +1,4 @@
+from urllib.parse import quote as url_quote
 from flask import Flask
 app = Flask(__name__)
 
